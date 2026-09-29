@@ -12,4 +12,4 @@ async def health_check():
 
 @app.get("/hello/{name}")
 async def hello(name: str):
-    return {"message": f"Hello, {name}!"}
+    return {"message": f"Hello,my name is {name}!"}
